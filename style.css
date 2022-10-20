@@ -303,7 +303,6 @@ a:hover {
 
 .navbar-brand img {
     height: 70px;
-    margin: 0 5px 0 -15%;
     display: inline;
 }
 
@@ -356,6 +355,17 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.quote
+{
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.refquote
+{
+    color: #333333;
 }
 
 @media (min-width: 768px) {
@@ -814,16 +824,9 @@ h1 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-/* .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-} */
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere-webp.webp");
 }
 
 .bg-presentation {
@@ -868,6 +871,7 @@ h1 {
     .b-parallax {
         background-attachment: scroll;
     }
+
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -1055,5 +1059,10 @@ h1 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .portfolio-thumb
+    {
+        margin: auto;
     }
 }
