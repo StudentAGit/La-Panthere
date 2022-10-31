@@ -29,7 +29,7 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="dessin du visage d'une panthère à gauche et à droite
-					est écrit La Panthère" height="40" /></a>
+					est écrit La Panthère" height="40"></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -69,25 +69,25 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>Nom
-							<input id="name" class="form-control" required />
+						<label for="name">Nom
+							<input id="name" class="form-control" required>
 						</label>
 					</div>
 					<div class="form-group">
-						<label>Adresse email
-							<input id="email" class="form-control" type="email" required />
+						<label for="email">Adresse email
+							<input id="email" class="form-control" type="email" required>
 						</label>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="input_504">
 							Comment nous avez-vous connu ?
-							<input class="form-control" type="email" required id="input_504" />
+							<input class="form-control" type="email" required id="input_504">
 						</label>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 							<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 						</label>
